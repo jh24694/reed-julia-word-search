@@ -1,7 +1,7 @@
 // Function to generate random words
 async function generateRandomWords() {
   try {
-    const response = await fetch('https://api.datamuse.com/words?ml=ringing+in+the+ears&max=4');
+    const response = await fetch('https://api.datamuse.com/words?ml=beach&max=10');
     if (!response.ok) {
       throw new Error('Failed to fetch random words');
     }
