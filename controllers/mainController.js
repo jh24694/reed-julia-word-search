@@ -22,3 +22,5 @@ async function main() {
 
 // Call the main function
 main();
+
+console.log("hi");
